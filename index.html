@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcsus AI - Asisten Arsitektur Berkelanjutan</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>Arcsus AI</span>
+                </div>
+                <button class="new-chat-btn" onclick="newChat()">
+                    <i class="fas fa-plus"></i>
+                    <span>Chat Baru</span>
+                </button>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Riwayat Chat</h3>
+                <div class="chat-history" id="chatHistory">
+                    <p class="empty-history">Belum ada riwayat</p>
+                </div>
+            </div>
+            
+            <div class="sidebar-info">
+                <div class="info-item">
+                    <i class="fas fa-database"></i>
+                    <span id="patternCount">151 Patterns</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-book"></i>
+                    <span>Sustainable Architecture</span>
+                </div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="version">v3.5.0</div>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-container" id="chatContainer">
+            <header class="chat-header">
+                <div class="header-content">
+                    <button class="menu-toggle" onclick="toggleSidebar()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div>
+                        <h1>Arcsus AI</h1>
+                        <p class="subtitle">Asisten Arsitektur Berkelanjutan</p>
+                    </div>
+                </div>
+                
+                <div class="header-controls">
+                    <button class="control-btn" onclick="toggleTheme()" title="Dark/Light Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="theme-selector">
+                        <button class="control-btn" onclick="toggleThemeMenu()" title="Tema Warna">
+                            <i class="fas fa-palette"></i>
+                        </button>
+                        <div class="theme-menu" id="themeMenu">
+                            <div class="theme-option" onclick="setTheme('green')" style="background: linear-gradient(135deg, #1a5f3f, #4caf7d);"></div>
+                            <div class="theme-option" onclick="setTheme('blue')" style="background: linear-gradient(135deg, #1e3a8a, #3b82f6);"></div>
+                            <div class="theme-option" onclick="setTheme('purple')" style="background: linear-gradient(135deg, #581c87, #a855f7);"></div>
+                            <div class="theme-option" onclick="setTheme('orange')" style="background: linear-gradient(135deg, #9a3412, #f97316);"></div>
+                            <div class="theme-option" onclick="setTheme('teal')" style="background: linear-gradient(135deg, #115e59, #14b8a6);"></div>
+                        </div>
+                    </div>
+                    <button class="control-btn" onclick="exportChat()" title="Export Chat">
+                        <i class="fas fa-download"></i>
+                    </button>
+                    <button class="control-btn" onclick="toggleBookmarks()" title="Bookmarks">
+                        <i class="fas fa-bookmark"></i>
+                        <span class="badge" id="bookmarkCount">0</span>
+                    </button>
+                </div>
+            </header>
+
+            <div class="chat-messages" id="chatMessages">
+                <div class="welcome-message">
+                    <div class="welcome-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h2>Selamat Datang di Arcsus AI</h2>
+                    <p>Asisten virtual ahli arsitektur berkelanjutan dengan fitur Material Comparator, Image Analysis, Challenge & Calculator.</p>
+                    
+                    <div class="feature-grid">
+                        <div class="feature-card" onclick="showFeatureInfo('voice')">
+                            <i class="fas fa-microphone"></i>
+                            <span>Voice Input</span>
+                        </div>
+                        <div class="feature-card" onclick="openMaterialComparator()">
+                            <i class="fas fa-balance-scale"></i>
+                            <span>Material Comparator</span>
+                        </div>
+                        <div class="feature-card" onclick="openImageAnalysis()">
+                            <i class="fas fa-image"></i>
+                            <span>Image Analysis</span>
+                        </div>
+                        <div class="feature-card" onclick="startChallenge()">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Green Challenge</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="smart-suggestions" id="smartSuggestions">
+                <div class="suggestion-label">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Saran Pertanyaan:</span>
+                </div>
+                <div class="suggestion-list" id="suggestionList">
+                    <button class="suggestion-chip" onclick="sendSuggestion('Apa itu sustainable architecture')">Sustainable Architecture</button>
+                    <button class="suggestion-chip" onclick="sendSuggestion('Apa itu green building')">Green Building</button>
+                    <button class="suggestion-chip" onclick="sendSuggestion('Efisiensi energi')">Efisiensi Energi</button>
+                    <button class="suggestion-chip" onclick="sendSuggestion('Material berkelanjutan')">Material Hijau</button>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <div class="input-tools">
+                    <button class="tool-btn" onclick="openMaterialComparator()" title="Material Comparator">
+                        <i class="fas fa-balance-scale"></i>
+                    </button>
+                    
+                    <button class="tool-btn" onclick="openImageAnalysis()" title="Image Analysis">
+                        <i class="fas fa-image"></i>
+                    </button>
+                    
+                    <button class="tool-btn" onclick="startChallenge()" title="Green Architect Challenge">
+                        <i class="fas fa-gamepad"></i>
+                    </button>
+                    
+                    <button class="tool-btn" onclick="startCarbonCalc()" title="Carbon Footprint Calculator">
+                        <i class="fas fa-calculator"></i>
+                    </button>
+                    
+                    <button class="tool-btn voice-btn" id="voiceBtn" onclick="toggleVoiceInput()" title="Voice Input">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                    
+                    <button class="tool-btn" onclick="toggleTextToSpeech()" title="Dengarkan Jawaban">
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+                </div>
+
+                <div class="input-wrapper">
+                    <textarea 
+                        id="userInput" 
+                        placeholder="Tanyakan tentang arsitektur berkelanjutan..." 
+                        rows="1"
+                        onkeypress="handleKeyPress(event)"
+                        oninput="autoResize(this)"
+                    ></textarea>
+                    <button class="send-btn" onclick="sendMessage()">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Voice Modal -->
+    <div class="modal" id="voiceModal">
+        <div class="modal-content">
+            <div class="voice-animation">
+                <div class="voice-wave">
+                    <span></span><span></span><span></span><span></span><span></span>
+                </div>
+            </div>
+            <h3>Mendengarkan...</h3>
+            <p id="voiceStatus">Silakan bicara</p>
+            <button class="btn-secondary" onclick="stopVoiceInput()">Berhenti</button>
+        </div>
+    </div>
+
+    <!-- Material Comparator Modal -->
+    <div class="modal" id="comparatorModal">
+        <div class="modal-content modal-large comparator-modal">
+            <div class="comparator-header">
+                <div>
+                    <h3><i class="fas fa-balance-scale"></i> Material Comparator</h3>
+                    <p class="modal-subtitle">Bandingkan 2 material bangunan secara visual</p>
+                </div>
+                <button class="close-btn" onclick="closeModal('comparatorModal')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="comparator-body">
+                <div class="material-selection">
+                    <div class="material-picker">
+                        <label>Material 1</label>
+                        <div class="material-grid" id="materialGrid1"></div>
+                    </div>
+                    
+                    <div class="vs-divider">
+                        <span>VS</span>
+                    </div>
+                    
+                    <div class="material-picker">
+                        <label>Material 2</label>
+                        <div class="material-grid" id="materialGrid2"></div>
+                    </div>
+                </div>
+                
+                <div class="chart-container" id="chartContainer" style="display: none;">
+                    <div class="chart-wrapper">
+                        <canvas id="materialChart"></canvas>
+                    </div>
+                    <div class="chart-actions">
+                        <button class="btn-primary" onclick="compareMaterials()">
+                            <i class="fas fa-sync-alt"></i> Bandingkan Ulang
+                        </button>
+                        <button class="btn-secondary" onclick="askBotAboutMaterials()">
+                            <i class="fas fa-robot"></i> Tanya Bot Detail
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="empty-state-chart" id="emptyState">
+                    <i class="fas fa-chart-radar"></i>
+                    <p>Pilih 2 material untuk memulai perbandingan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Analysis Modal -->
+    <div class="modal" id="imageAnalysisModal">
+        <div class="modal-content modal-large">
+            <div class="comparator-header">
+                <div>
+                    <h3><i class="fas fa-image"></i> Image Analysis</h3>
+                    <p class="modal-subtitle">Upload gambar bangunan untuk dianalisis</p>
+                </div>
+                <button class="close-btn" onclick="closeModal('imageAnalysisModal')">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="comparator-body">
+                <div class="image-upload-area" id="imageUploadArea" onclick="document.getElementById('imageAnalysisInput').click()">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>Upload Gambar Bangunan</h3>
+                    <p>Klik atau drag & drop gambar di sini</p>
+                    <input type="file" id="imageAnalysisInput" accept="image/*" style="display: none;" onchange="handleImageAnalysisUpload(event)">
+                    <button class="btn-primary" onclick="event.stopPropagation(); document.getElementById('imageAnalysisInput').click()">
+                        Pilih Gambar
+                    </button>
+                </div>
+                
+                <div class="image-preview-container" id="imageAnalysisPreview" style="display: none;">
+                    <img src="" alt="Preview" id="analysisPreviewImg">
+                    <div class="image-analysis-options">
+                        <button class="btn-primary" onclick="analyzeImageWithAIML()">
+                            <i class="fas fa-search"></i> Analisis dengan AI
+                        </button>
+                        <button class="btn-secondary" onclick="resetImageAnalysis()">
+                            <i class="fas fa-redo"></i> Upload Ulang
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Challenge Modal -->
+    <div class="modal" id="challengeModal">
+        <div class="modal-content modal-large">
+            <h3><i class="fas fa-gamepad"></i> Green Architect Challenge</h3>
+            <p class="modal-subtitle">Uji kemampuan desain berkelanjutan Anda melalui skenario proyek nyata!</p>
+            <div class="feature-info-grid">
+                <div class="info-card">
+                    <i class="fas fa-building"></i>
+                    <h4>Skenario Nyata</h4>
+                    <p>Hadapi tantangan desain seperti arsitek profesional</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Skor Sustainability</h4>
+                    <p>Dapatkan feedback dan skor untuk setiap keputusan</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h4>Edukasi Interaktif</h4>
+                    <p>Pelajari best practice arsitektur hijau</p>
+                </div>
+            </div>
+            <button class="btn-primary" onclick="beginChallenge()">Mulai Challenge</button>
+            <button class="btn-secondary" onclick="closeModal('challengeModal')">Tutup</button>
+        </div>
+    </div>
+
+    <!-- Carbon Calculator Modal -->
+    <div class="modal" id="carbonModal">
+        <div class="modal-content modal-large">
+            <h3><i class="fas fa-calculator"></i> Carbon Footprint Calculator</h3>
+            <p class="modal-subtitle">Hitung estimasi jejak karbon bangunan Anda!</p>
+            <div class="feature-info-grid">
+                <div class="info-card">
+                    <i class="fas fa-cloud"></i>
+                    <h4>Embodied Carbon</h4>
+                    <p>Estimasi emisi dari material konstruksi</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-bolt"></i>
+                    <h4>Operational Carbon</h4>
+                    <p>Emisi dari konsumsi energi tahunan</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-leaf"></i>
+                    <h4>Rekomendasi</h4>
+                    <p>Saran konkret untuk mengurangi jejak karbon</p>
+                </div>
+            </div>
+            <button class="btn-primary" onclick="beginCarbonCalc()">Mulai Kalkulator</button>
+            <button class="btn-secondary" onclick="closeModal('carbonModal')">Tutup</button>
+        </div>
+    </div>
+
+    <!-- Bookmarks Modal -->
+    <div class="modal" id="bookmarksModal">
+        <div class="modal-content modal-large">
+            <h3>Jawaban Tersimpan</h3>
+            <div class="bookmarks-list" id="bookmarksList"></div>
+            <button class="btn-secondary" onclick="toggleBookmarks()">Tutup</button>
+        </div>
+    </div>
+
+    <!-- Export Modal -->
+    <div class="modal" id="exportModal">
+        <div class="modal-content">
+            <h3>Export Chat</h3>
+            <div class="export-options">
+                <button class="export-option" onclick="exportChatAs('pdf')">
+                    <i class="fas fa-file-pdf" style="color: #ef4444;"></i>
+                    <span>Export PDF (Profesional)</span>
+                </button>
+                <button class="export-option" onclick="exportChatAs('txt')">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Export TXT</span>
+                </button>
+                <button class="export-option" onclick="exportChatAs('json')">
+                    <i class="fas fa-file-code"></i>
+                    <span>Export JSON</span>
+                </button>
+            </div>
+            <button class="btn-secondary" onclick="closeExportModal()">Batal</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

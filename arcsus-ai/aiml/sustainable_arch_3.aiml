@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <!-- File 4: Pengelolaan Air, Material & Interaksi Chatbot -->
+
+    <!-- PENGELOLAAN AIR -->
+    <category>
+        <pattern>MENGAPA PENGELOLAAN AIR PENTING DALAM SUSTAINABLE ARCHITECTURE</pattern>
+        <template>Air merupakan sumber daya penting yang perlu digunakan secara efisien. Pengelolaan yang baik dapat mengurangi pemborosan.</template>
+    </category>
+
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN WATER EFFICIENCY</pattern>
+        <template>Water efficiency adalah penggunaan air secara efisien untuk memenuhi kebutuhan bangunan. Tujuannya mengurangi penggunaan air tanpa mengurangi fungsi.</template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA CARA MENGHEMAT AIR PADA BANGUNAN</pattern>
+        <template>Gunakan perlengkapan hemat air dan manfaatkan air hujan. Kebocoran juga harus segera diperbaiki.</template>
+    </category>
+
+    <category>
+        <pattern>APA ITU RAINWATER HARVESTING</pattern>
+        <template>Rainwater harvesting adalah sistem untuk mengumpulkan dan memanfaatkan air hujan. Air tersebut dapat digunakan untuk kebutuhan tertentu setelah pengolahan yang sesuai.</template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA CARA KERJA RAINWATER HARVESTING</pattern>
+        <template>Air hujan dari atap dialirkan ke saluran dan disaring. Setelah itu air ditampung dalam tangki untuk digunakan.</template>
+    </category>
+
+    <category>
+        <pattern>APA MANFAAT PEMANFAATAN AIR HUJAN</pattern>
+        <template>Air hujan dapat digunakan untuk kebutuhan non-potabel. Hal ini membantu mengurangi penggunaan air bersih.</template>
+    </category>
+
+    <category>
+        <pattern>AIR HUJAN DAPAT DIGUNAKAN UNTUK APA</pattern>
+        <template>Air hujan dapat digunakan untuk menyiram tanaman dan membersihkan area tertentu. Penggunaannya harus disesuaikan dengan kualitas air.</template>
+    </category>
+
+    <category>
+        <pattern>APA ITU GREYWATER</pattern>
+        <template>Greywater adalah air bekas dari aktivitas seperti mandi dan mencuci. Air ini tidak berasal dari toilet.</template>
+    </category>
+
+    <category>
+        <pattern>APAKAH GREYWATER DAPAT DIGUNAKAN KEMBALI</pattern>
+        <template>Bisa, tetapi harus melalui pengolahan yang sesuai. Setelah itu dapat digunakan untuk kebutuhan tertentu seperti penyiraman.</template>
+    </category>
+
+    <category>
+        <pattern>APA MANFAAT PENGGUNAAN KEMBALI GREYWATER</pattern>
+        <template>Penggunaan kembali greywater dapat mengurangi kebutuhan air bersih. Jumlah air limbah yang dibuang juga dapat berkurang.</template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA LANDSCAPE MEMBANTU MENGELOLA AIR HUJAN</pattern>
+        <template>Landscape dapat menggunakan vegetasi, tanah, dan area resapan. Elemen tersebut membantu memperlambat dan menyerap air hujan.</template>
+    </category>
+
+    <category>
+        <pattern>APA ITU PERMEABLE PAVEMENT</pattern>
+        <template>Permeable pavement adalah perkerasan yang memungkinkan air meresap ke dalam tanah. Penggunaannya dapat membantu mengurangi limpasan.</template>
+    </category>
+
+    <category>
+        <pattern>MENGAPA PERMUKAAN PERMEABEL PENTING</pattern>
+        <template>Permukaan permeabel membantu air hujan masuk ke tanah. Hal ini dapat mengurangi genangan dan limpasan.</template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA CARA MENGURANGI LIMPASAN AIR HUJAN</pattern>
+        <template>Gunakan vegetasi, permukaan permeabel, rain garden, dan area resapan. Sistem drainase yang baik juga diperlukan.</template>
+    </category>
+
+    <category>
+        <pattern>APA HUBUNGAN DRAINASE DENGAN SUSTAINABILITY</pattern>
+        <template>Drainase membantu mengendalikan air hujan dan mencegah genangan. Sistem yang baik juga dapat mengurangi dampak limpasan.</template>
+    </category>
+
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN DRAINASE BERKELANJUTAN</pattern>
+        <template>Drainase berkelanjutan menggabungkan saluran dengan resapan dan vegetasi. Tujuannya mengelola air hujan secara lebih alami.</template>
+    </category>
+
+    <category>
+        <pattern>APA ITU BIOSWALE</pattern>
+        <template>Bioswale adalah area vegetasi yang membantu memperlambat dan menyaring limpasan air hujan. Sistem ini juga dapat membantu infiltrasi air.</template>
+    </category>
+
+    <category>
+        <pattern>APA ITU RAIN GARDEN</pattern>
+        <template>Rain garden adalah area lanskap yang dirancang untuk menampung air hujan sementara. Air kemudian dapat meresap ke dalam tanah.</template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA VEGETASI MEMBANTU PENGELOLAAN AIR HUJAN</pattern>
+        <template>Vegetasi memperlambat aliran air dan membantu infiltrasi. Hal ini dapat mengurangi limpasan air hujan.</template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA CARA MENGURANGI PEMBOROSAN AIR</pattern>
+        <template>Gunakan perlengkapan hemat air dan perbaiki kebocoran. Air hujan dan air yang masih dapat digunakan juga bisa dimanfaatkan kembali.</template>
+    </category>
+
+    <!-- MATERIAL DAN KONSTRUKSI -->
+    <category>
+        <pattern>MENGAPA MATERIAL PENTING DALAM SUSTAINABLE ARCHITECTURE</pattern>
+        <template>Material memberikan dampak lingkungan sejak proses produksi hingga pembuangan. Karena itu, pemilihannya perlu dilakukan dengan pertimbangan yang tepat.</template>
+    </category>
+
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN MATERIAL BERKELANJUTAN</pattern>
+        <template>Material berkelanjutan dipilih berdasarkan dampak lingkungan, sumber, umur, dan proses produksinya. Kemungkinan untuk digunakan kembali juga perlu dipertimbangkan.</template>
+    </category>
+
+    <category>
+        <pattern>APA CIRI MATERIAL YANG LEBIH RAMAH LINGKUNGAN</pattern>
+        <template>Material yang lebih ramah lingkungan memiliki umur pakai baik dan dampak produksi yang lebih rendah. Material tersebut juga dapat digunakan kembali atau didaur ulang.</template>
+    </category>
+
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN MATERIAL LOKAL</pattern>
+        <template>Material lokal adalah material yang tersedia atau diproduksi relatif dekat dengan lokasi proyek.</template>
+    </category>
+
+    <category>
+        <pattern>APA MANFAAT PENGGUNAAN MATERIAL LOKAL</pattern>
+        <template>Material lokal dapat mengurangi jarak transportasi dan energi yang digunakan. Penggunaannya juga dapat mendukung sumber daya lokal.</template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA MATERIAL LOKAL MENDUKUNG SUSTAINABILITY</pattern>
+        <template>Material lokal dapat mengurangi kebutuhan transportasi. Material tersebut juga dapat menyesuaikan karakter dan sumber daya daerah.</template>
+    </category>
+
+    <category>
+        <pattern>MENGAPA JARAK TRANSPORTASI MATERIAL PERLU DIPERHATIKAN</pattern>
+        <template>Transportasi material membutuhkan energi dan dapat menghasilkan emisi. Jarak yang lebih dekat dapat membantu mengurangi dampak tersebut.</template>
+    </category>
+
+    <category>
+        <pattern>APA ITU RECYCLED MATERIAL</pattern>
+        <template>Recycled material adalah material yang menggunakan bahan hasil daur ulang. Penggunaannya dapat mengurangi kebutuhan bahan baku baru.</template>
+    </category>
+
+    <category>
+        <pattern>APA MANFAAT RECYCLED MATERIAL</pattern>
+        <template>Material daur ulang dapat mengurangi limbah dan penggunaan bahan baku baru. Hal ini membantu mengurangi dampak lingkungan.</template>
+    </category>
+
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN RECYCLABLE MATERIAL</pattern>
+        <template>Recyclable material adalah material yang masih dapat diproses kembali menjadi bahan baru.</template>
+    </category>
+
+    <category>
+        <pattern>APA PERBEDAAN RECYCLED DAN RECYCLABLE MATERIAL</pattern>
+        <template>Recycled berarti sudah menggunakan bahan hasil daur ulang. Recyclable berarti material tersebut dapat didaur ulang.</template>
+    </category>
+
+    <category>
+        <pattern>APA ITU EMBODIED ENERGY</pattern>
+        <template>Embodied energy adalah energi yang digunakan dalam proses penyediaan material. Prosesnya mencakup ekstraksi, produksi, pengolahan, dan transportasi.</template>
+    </category>
+
+    <category>
+        <pattern>MENGAPA EMBODIED ENERGY PENTING</pattern>
+        <template>Energi bangunan tidak hanya digunakan saat bangunan beroperasi. Material juga memiliki energi yang digunakan sebelum sampai ke bangunan.</template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA PRODUKSI MATERIAL MEMENGARUHI LINGKUNGAN</pattern>
+        <template>Produksi material dapat menggunakan energi, air, dan bahan baku. Prosesnya juga dapat menghasilkan emisi dan limbah.</template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA CARA MEMILIH MATERIAL DENGAN DAMPAK RENDAH</pattern>
+        <template>Pertimbangkan sumber, produksi, umur pakai, transportasi, dan perawatan material. Kemungkinan reuse dan recycle juga perlu diperhatikan.</template>
+    </category>
+
+    <category>
+        <pattern>APAKAH KAYU SELALU MENJADI MATERIAL PALING SUSTAINABLE</pattern>
+        <template>Tidak selalu. Sustainability kayu bergantung pada sumber, pengelolaan hutan, produksi, transportasi, dan penggunaannya.</template>
+    </category>
+
+    <category>
+        <pattern>APAKAH BETON BISA DIGUNAKAN DALAM SUSTAINABLE ARCHITECTURE</pattern>
+        <template>Bisa. Penggunaan beton perlu direncanakan secara efisien agar jumlah material dan dampaknya dapat dikurangi.</template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA CARA MENGURANGI LIMBAH KONSTRUKSI</pattern>
+        <template>Lakukan perencanaan ukuran material dengan baik dan manfaatkan kembali sisa material. Desain modular juga dapat membantu mengurangi limbah.</template>
+    </category>
+
+    <category>
+        <pattern>APA MANFAAT DESAIN MODULAR DALAM SUSTAINABILITY</pattern>
+        <template>Desain modular membantu mengontrol penggunaan material dan proses konstruksi. Cara ini juga dapat mengurangi material yang terbuang.</template>
+    </category>
+
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN DESAIN UNTUK REUSE</pattern>
+        <template>Desain untuk reuse memungkinkan komponen bangunan dibongkar dan digunakan kembali. Karena itu, sambungan dan material perlu dirancang agar mudah dilepas.</template>
+    </category>
+
+    <!-- INTERAKSI UMUM CHATBOT -->
+    <category>
+        <pattern>HALO</pattern>
+        <template>Halo! Selamat datang di chatbot Sustainable Architecture. Saya siap membantu menjawab pertanyaan tentang arsitektur berkelanjutan.</template>
+    </category>
+
+    <category>
+        <pattern>HAI</pattern>
+        <template>Hai! Silakan tanyakan apa saja tentang Sustainable Architecture. Saya siap membantu.</template>
+    </category>
+
+    <category>
+        <pattern>SELAMAT PAGI</pattern>
+        <template>Selamat pagi! Semoga harimu menyenangkan. Ada yang ingin kamu tanyakan tentang Sustainable Architecture?</template>
+    </category>
+
+    <category>
+        <pattern>SELAMAT SIANG</pattern>
+        <template>Selamat siang! Saya siap membantu menjawab pertanyaan tentang Sustainable Architecture.</template>
+    </category>
+
+    <category>
+        <pattern>SELAMAT SORE</pattern>
+        <template>Selamat sore! Silakan tanyakan hal yang ingin kamu ketahui tentang Sustainable Architecture.</template>
+    </category>
+
+    <category>
+        <pattern>SELAMAT MALAM</pattern>
+        <template>Selamat malam! Saya siap membantu kamu mempelajari Sustainable Architecture.</template>
+    </category>
+
+    <category>
+        <pattern>SIAPA KAMU</pattern>
+        <template>Saya adalah chatbot yang membantu memberikan informasi tentang Sustainable Architecture. Saya dapat menjawab pertanyaan seputar konsep dan penerapannya.</template>
+    </category>
+
+    <category>
+        <pattern>APA YANG BISA KAMU BANTU</pattern>
+        <template>Saya dapat membantu menjelaskan Sustainable Architecture. Topiknya meliputi energi, air, material, tapak, iklim, dan kenyamanan bangunan.</template>
+    </category>
+
+    <category>
+        <pattern>BAGAIMANA CARA MENGGUNAKAN CHATBOT INI</pattern>
+        <template>Ketik pertanyaan yang ingin kamu tanyakan tentang Sustainable Architecture. Chatbot akan memberikan jawaban berdasarkan materi yang tersedia.</template>
+    </category>
+
+    <category>
+        <pattern>TERIMA KASIH</pattern>
+        <template>Sama-sama! Semoga informasi yang diberikan dapat membantu kamu memahami Sustainable Architecture.</template>
+    </category>
+
+</aiml>

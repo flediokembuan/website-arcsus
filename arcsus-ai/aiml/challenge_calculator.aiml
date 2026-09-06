@@ -1,0 +1,26 @@
+    <category>
+        <pattern>HASIL CHALLENGE</pattern>
+        <template>🏆 **HASIL GREEN ARCHITECT CHALLENGE**
+
+Terima kasih telah menyelesaikan simulasi!
+
+**📊 SKOR TOTAL ANDA:**
+
+Berdasarkan pilihan Anda, skor sustainability bangunan Anda adalah:
+
+🌟 **Rata-rata: 75/100**
+
+**🎖️ KLASIFIKASI:**
+- **90-100:** 🏆 **Master Green Architect** (Net Zero Building)
+- **75-89:** 🌟 **Sustainable Designer** (Green Building Certified)
+- **60-74:** ✅ **Eco-Conscious** (Basic Sustainability)
+- **&lt;60:** ⚠️ **Needs Improvement** (Perlu banyak optimasi)
+
+**💡 REKOMENDASI UNTUK PROYEK NYATA:**
+1. Selalu mulai dengan **analisis tapak** (matahari, angin, kontur)
+2. Integrasikan **energi terbarukan** minimal 30%
+3. Pilih material dengan **embodied energy rendah**
+4. Terapkan **passive design** sebelum active system
+
+**🎮 Main Lagi?** Ketik: **MULAI CHALLENGE**</template>
+    </category>

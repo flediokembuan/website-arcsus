@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <!-- File 2: Material, Teknologi & Sertifikasi -->
+    
+    <category>
+        <pattern>BAGAIMANA MENENTUKAN ORIENTASI BANGUNAN BERDASARKAN TAPAK?</pattern>
+        <template>Orientasi ditentukan berdasarkan matahari, angin, view, akses, dan kondisi sekitar. Kebutuhan ruang juga menjadi pertimbangan.</template>
+    </category>
+    
+    <category>
+        <pattern>MENGAPA ANALISIS MATAHARI PENTING?</pattern>
+        <template>Analisis matahari membantu menentukan orientasi dan posisi bukaan. Analisis ini juga berguna untuk mengendalikan panas dan pencahayaan.</template>
+    </category>
+    
+    <category>
+        <pattern>MENGAPA ARAH ANGIN PERLU DIANALISIS?</pattern>
+        <template>Arah angin membantu menentukan posisi bukaan. Hal ini dapat mendukung ventilasi alami dalam bangunan.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA KONDISI SEKITAR MEMENGARUHI DESAIN?</pattern>
+        <template>Bangunan, jalan, vegetasi, kebisingan, dan aktivitas sekitar dapat memengaruhi desain. Kondisi tersebut perlu dipertimbangkan dalam penataan tapak.</template>
+    </category>
+    
+    <category>
+        <pattern>APA HUBUNGAN AKSESIBILITAS DENGAN SUSTAINABILITY?</pattern>
+        <template>Aksesibilitas yang baik dapat mendukung berjalan kaki dan transportasi umum. Hal ini dapat mengurangi ketergantungan terhadap kendaraan pribadi.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA CARA MENGURANGI PENGGUNAAN KENDARAAN PRIBADI?</pattern>
+        <template>Sediakan pedestrian yang nyaman, jalur sepeda, dan akses transportasi umum. Fasilitas juga sebaiknya mudah dijangkau.</template>
+    </category>
+    
+    <category>
+        <pattern>MENGAPA PEDESTRIAN PENTING DALAM ARSITEKTUR BERKELANJUTAN?</pattern>
+        <template>Pedestrian mendorong aktivitas berjalan kaki. Hal ini dapat mengurangi penggunaan kendaraan dan menciptakan lingkungan yang lebih sehat.</template>
+    </category>
+    
+    <category>
+        <pattern>APA MANFAAT JALUR SEPEDA?</pattern>
+        <template>Jalur sepeda memberikan alternatif transportasi yang lebih ramah lingkungan. Penggunaannya juga dapat mengurangi ketergantungan terhadap kendaraan bermotor.</template>
+    </category>
+    
+    <category>
+        <pattern>APA MANFAAT RUANG TERBUKA HIJAU?</pattern>
+        <template>Ruang terbuka hijau dapat mengurangi panas dan membantu mengelola air hujan. Ruang ini juga dapat menjadi tempat interaksi pengguna.</template>
+    </category>
+    
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN SUSTAINABLE SITE PLANNING?</pattern>
+        <template>Sustainable site planning adalah perencanaan tapak yang mempertimbangkan lingkungan, sumber daya, akses, dan ekosistem.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA CARA MENJAGA EKOSISTEM TAPAK?</pattern>
+        <template>Pertahankan vegetasi penting dan hindari area yang sensitif. Perubahan tanah, air, dan habitat juga perlu diminimalkan.</template>
+    </category>
+    
+    <category>
+        <pattern>APA HUBUNGAN IKLIM DENGAN SUSTAINABLE ARCHITECTURE?</pattern>
+        <template>Iklim memengaruhi orientasi, bukaan, ventilasi, shading, dan material. Desain yang sesuai iklim dapat menghemat energi.</template>
+    </category>
+    
+    <category>
+        <pattern>MENGAPA IKLIM PENTING DALAM DESAIN?</pattern>
+        <template>Bangunan yang menyesuaikan iklim lebih mudah mencapai kenyamanan. Kebutuhan energi juga dapat menjadi lebih rendah.</template>
+    </category>
+    
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN ARSITEKTUR TROPIS BERKELANJUTAN?</pattern>
+        <template>Arsitektur tropis berkelanjutan menyesuaikan bangunan dengan kondisi iklim tropis. Tujuannya tetap nyaman dengan penggunaan energi yang efisien.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA CARA MENYESUAIKAN BANGUNAN DENGAN IKLIM TROPIS?</pattern>
+        <template>Gunakan ventilasi alami, bukaan yang tepat, shading, dan perlindungan terhadap hujan. Atap dan material juga perlu disesuaikan.</template>
+    </category>
+    
+    <category>
+        <pattern>APA ITU VENTILASI ALAMI?</pattern>
+        <template>Ventilasi alami adalah pertukaran udara melalui bukaan tanpa sepenuhnya menggunakan sistem mekanis. Cara ini dapat membantu mengurangi panas dalam bangunan.</template>
+    </category>
+    
+    <category>
+        <pattern>APA ITU VENTILASI SILANG?</pattern>
+        <template>Ventilasi silang adalah aliran udara melalui bukaan pada sisi bangunan yang berbeda. Strategi ini membantu meningkatkan pergerakan udara.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA VENTILASI ALAMI MENGHEMAT ENERGI?</pattern>
+        <template>Ventilasi alami dapat mengurangi penggunaan AC ketika kondisi udara memungkinkan. Dengan demikian, konsumsi energi dapat berkurang.</template>
+    </category>
+    
+    <category>
+        <pattern>APA MANFAAT BUKAAN PADA BANGUNAN?</pattern>
+        <template>Bukaan memberikan cahaya dan udara alami. Bukaan juga dapat memberikan hubungan visual dengan ruang luar.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA MENENTUKAN POSISI BUKAAN?</pattern>
+        <template>Posisi bukaan harus mempertimbangkan arah angin, pencahayaan alami, dan kebutuhan ventilasi. Bukaan yang tepat dapat meningkatkan kenyamanan dan efisiensi energi.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA ORIENTASI BANGUNAN BERHUBUNGAN DENGAN PANAS?</pattern>
+        <template>Orientasi menentukan seberapa banyak matahari mengenai bangunan. Hal ini memengaruhi jumlah panas yang masuk ke ruang.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA CARA MENGURANGI PANAS MATAHARI PADA BANGUNAN?</pattern>
+        <template>Gunakan overhang, kisi-kisi, secondary skin, dan vegetasi. Orientasi serta pemilihan kaca juga penting.</template>
+    </category>
+    
+    <category>
+        <pattern>APA ITU SUN SHADING?</pattern>
+        <template>Sun shading adalah elemen yang digunakan untuk mengurangi radiasi matahari langsung. Contohnya adalah kanopi, kisi-kisi, dan overhang.</template>
+    </category>
+    
+    <category>
+        <pattern>APA FUNGSI OVERHANG?</pattern>
+        <template>Overhang memberikan bayangan pada bukaan. Elemen ini juga membantu melindungi bangunan dari hujan.</template>
+    </category>
+    
+    <category>
+        <pattern>APA ITU SECONDARY SKIN?</pattern>
+        <template>Secondary skin adalah lapisan tambahan pada fasad bangunan. Fungsinya dapat mengurangi panas matahari sekaligus memberikan karakter visual.</template>
+    </category>
+    
+    <category>
+        <pattern>APA FUNGSI KANOPI?</pattern>
+        <template>Kanopi melindungi area dari panas matahari dan hujan. Kanopi juga dapat meningkatkan kenyamanan pengguna.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA ATAP BERHUBUNGAN DENGAN IKLIM TROPIS?</pattern>
+        <template>Atap harus mampu merespons panas dan curah hujan. Bentuk, kemiringan, ventilasi, dan material atap memengaruhi kenyamanan.</template>
+    </category>
+    
+    <category>
+        <pattern>ENGAPA OVERHANG BANYAK DIGUNAKAN PADA BANGUNAN TROPIS?</pattern>
+        <template>Overhang dapat melindungi bukaan dari matahari dan hujan. Elemen ini juga membantu meningkatkan kenyamanan ruang.</template>
+    </category>
+    
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN FASAD RESPONSIF IKLIM?</pattern>
+        <template>Fasad responsif iklim dirancang untuk menyesuaikan kondisi lingkungan. Contohnya melalui bukaan, shading, secondary skin, dan vegetasi.</template>
+    </category>
+    
+    <category>
+        <pattern>APA MANFAAT PENCAHAYAAN ALAMI?</pattern>
+        <template>Pencahayaan alami dapat mengurangi penggunaan lampu pada siang hari. Cahaya alami juga dapat meningkatkan kualitas ruang.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA MEMAKSIMALKAN CAHAYA ALAMI TANPA MENINGKATKAN PANAS?</pattern>
+        <template>Gunakan bukaan yang tepat dan tambahkan shading. Pemilihan kaca serta distribusi cahaya juga perlu diperhatikan.</template>
+    </category>
+    
+    <category>
+        <pattern>MENGAPA EFISIENSI ENERGI PENTING DALAM SUSTAINABLE ARCHITECTURE?</pattern>
+        <template>Efisiensi energi dapat mengurangi penggunaan listrik dan biaya operasional. Hal ini juga membantu mengurangi dampak lingkungan.</template>
+    </category>
+    
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN BANGUNAN HEMAT ENERGI?</pattern>
+        <template>Bangunan hemat energi menggunakan energi secara efisien untuk memenuhi kebutuhan pengguna. Kenyamanan tetap dipertahankan.</template>
+    </category>
+    
+    <category>
+        <pattern>APA SAJA SUMBER KONSUMSI ENERGI DALAM BANGUNAN?</pattern>
+        <template>Contohnya adalah AC, lampu, pemanas air, peralatan elektronik, dan pompa.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA DESAIN DAPAT MENGURANGI PENGGUNAAN LISTRIK?</pattern>
+        <template>Manfaatkan cahaya dan ventilasi alami serta gunakan shading. Orientasi bangunan yang tepat juga dapat mengurangi kebutuhan energi.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA CAHAYA ALAMI MENGHEMAT ENERGI?</pattern>
+        <template>Cahaya alami mengurangi kebutuhan lampu pada siang hari. Dengan demikian, penggunaan listrik dapat berkurang.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA VENTILASI ALAMI MENGHEMAT ENERGI?</pattern>
+        <template>Ventilasi alami dapat mengurangi kebutuhan AC atau sistem penghawaan mekanis. Hal ini dapat menurunkan konsumsi energi.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA CARA MENGURANGI PENGGUNAAN AC?</pattern>
+        <template>Kurangi panas yang masuk dengan shading dan orientasi yang tepat. Ventilasi alami dan material yang sesuai juga dapat membantu.</template>
+    </category>
+    
+    <category>
+        <pattern>APA ITU PASSIVE COOLING?</pattern>
+        <template>Passive cooling adalah strategi pendinginan yang memanfaatkan desain dan kondisi alami. Tujuannya mengurangi ketergantungan pada mesin pendingin.</template>
+    </category>
+    
+    <category>
+        <pattern>APA CONTOH PENERAPAN PASSIVE COOLING?</pattern>
+        <template>Contohnya ventilasi silang, shading, vegetasi, dan desain atap. Orientasi serta material juga dapat digunakan.</template>
+    </category>
+    
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN ENERGI TERBARUKAN?</pattern>
+        <template>Energi terbarukan berasal dari sumber yang dapat diperbarui secara alami. Contohnya energi matahari, angin, dan air.</template>
+    </category>
+    
+    <category>
+        <pattern>APA ITU PANEL SURYA?</pattern>
+        <template>Panel surya adalah perangkat yang mengubah energi matahari menjadi listrik. Teknologi ini dapat digunakan sebagai sumber energi bangunan.</template>
+    </category>
+    
+    <category>
+        <pattern>APA MANFAAT PANEL SURYA PADA BANGUNAN?</pattern>
+        <template>Panel surya dapat mengurangi penggunaan energi dari sumber konvensional. Penggunaannya juga dapat membantu mengurangi emisi operasional.</template>
+    </category>
+    
+    <category>
+        <pattern>APA YANG PERLU DIPERTIMBANGKAN DALAM PENGGUNAAN PANEL SURYA?</pattern>
+        <template>Pertimbangkan kondisi matahari, orientasi, kemiringan, luas panel, dan kebutuhan energi. Biaya serta lokasi pemasangan juga penting.</template>
+    </category>
+    
+    <category>
+        <pattern>MENGAPA ORIENTASI PANEL SURYA PENTING?</pattern>
+        <template>Orientasi memengaruhi jumlah sinar matahari yang diterima panel. Hal ini berpengaruh terhadap jumlah listrik yang dihasilkan.</template>
+    </category>
+    
+    <category>
+        <pattern>APA ITU NET ZERO ENERGY BUILDING?</pattern>
+        <template>Net Zero Energy Building adalah bangunan yang berusaha menyeimbangkan energi yang digunakan dengan energi terbarukan yang dihasilkan.</template>
+    </category>
+    
+    <category>
+        <pattern>APA YANG DIMAKSUD DENGAN ZERO ENERGY BUILDING?</pattern>
+        <template>Zero Energy Building secara umum adalah bangunan yang penggunaan energinya dapat diseimbangkan dengan energi terbarukan yang dihasilkan.</template>
+    </category>
+    
+    <category>
+        <pattern>APA PERBEDAAN BANGUNAN HEMAT ENERGI DAN NET ZERO ENERGY BUILDING?</pattern>
+        <template>Bangunan hemat energi fokus mengurangi konsumsi energi. Net Zero Energy juga berusaha menghasilkan energi terbarukan untuk menyeimbangkan konsumsi tersebut.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA MENGHEMAT ENERGI TANPA MENGURANGI KENYAMANAN?</pattern>
+        <template>Gunakan strategi desain pasif seperti ventilasi, shading, dan pencahayaan alami. Sistem mekanis yang efisien dapat digunakan jika masih diperlukan.</template>
+    </category>
+    
+    <category>
+        <pattern>BAGAIMANA MATERIAL MEMENGARUHI PENGGUNAAN ENERGI?</pattern>
+        <template>Material dapat memengaruhi panas yang masuk ke bangunan. Material juga memiliki energi yang digunakan dalam proses produksinya.</template>
+    </category>
+    
+    <category>
+        <pattern>TEKNOLOGI APA YANG DAPAT MEMBANTU EFISIENSI ENERGI?</pattern>
+        <template>Contohnya sensor, lampu LED, kontrol otomatis, dan smart building. Peralatan hemat energi juga dapat digunakan.</template>
+    </category>
+    
+</aiml>

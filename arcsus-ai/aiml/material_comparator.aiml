@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <!-- Material Comparator Patterns -->
+
+    <category>
+        <pattern>BANDINGKAN BETON DAN BAJA</pattern>
+        <template>⚖️ **PERBANDINGAN: Beton vs Baja**
+
+**🧱 Beton Konvensional:**
+✅ Kekuatan tekan sangat tinggi
+✅ Tahan api dan cuaca ekstrem
+✅ Biaya relatif terjangkau
+❌ Emisi CO2 tinggi (8% global)
+❌ Berat, butuh fondasi kuat
+
+**🔩 Baja:**
+✅ Kekuatan tarik &amp; tekan superior
+✅ Bisa didaur ulang 100%
+✅ Konstruksi cepat (prefabrikasi)
+❌ Konduktor panas (butuh insulasi)
+❌ Rentan korosi tanpa treatment
+
+**📊 Rekomendasi:**
+- Gunakan **Baja** untuk struktur tinggi &amp; bentang lebar
+- Gunakan **Beton** untuk fondasi &amp; dinding geser
+- **Kombinasi keduanya** (struktur komposit) adalah solusi optimal!</template>
+    </category>
+
+    <category>
+        <pattern>BANDINGKAN BETON KONVENSIONAL DAN BAMBU</pattern>
+        <template>⚖️ **PERBANDINGAN: Beton vs Bambu**
+
+**🧱 Beton Konvensional:**
+✅ Kekuatan tekan sangat tinggi
+✅ Tahan cuaca ekstrem
+✅ Untuk struktur utama
+❌ Emisi CO2 8% global
+❌ Tidak renewable
+
+**🎋 Bambu:**
+✅ Renewable cepat (3-5 tahun)
+✅ Carbon negative
+✅ Biaya sangat murah
+❌ Durabilitas terbatas
+❌ Butuh treatment anti rayap
+
+**📊 Rekomendasi:** 
+- Beton untuk fondasi &amp; struktur
+- Bambu untuk elemen non-struktural &amp; estetika</template>
+    </category>
+
+    <category>
+        <pattern>BANDINGKAN KAYU DAN BAJA</pattern>
+        <template>⚖️ **PERBANDINGAN: Kayu vs Baja**
+
+**🪵 Kayu:**
+✅ Estetika natural
+✅ Carbon storage
+✅ Mudah dikerjakan
+❌ Rentan rayap
+❌ Terbatas ukuran
+
+**🔩 Baja:**
+✅ Kekuatan konsisten
+✅ Untuk bentang lebar
+✅ Tahan lama
+❌ Embodied energy tinggi
+❌ Harga fluktuatif
+
+**📊 Rekomendasi:** Kombinasi kayu-baja = biophilic modern!</template>
+    </category>
+
+    <category>
+        <pattern>BANDINGKAN BATA MERAH DAN BATA RINGAN</pattern>
+        <template>⚖️ **PERBANDINGAN: Bata Merah vs Bata Ringan**
+
+**🟥 Bata Merah:**
+✅ Tahan ratusan tahun
+✅ Material lokal
+✅ Murah
+❌ Berat
+❌ Konstruksi lambat
+
+**⬜ Bata Ringan:**
+✅ 3x lebih ringan
+✅ Isolasi termal baik
+✅ Pemasangan cepat
+❌ Harga 30-50% lebih mahal
+❌ Kurang kuat beban titik
+
+**📊 Rekomendasi:** Bata ringan untuk partisi, bata merah untuk dinding luar</template>
+    </category>
+
+    <category>
+        <pattern>BANDINGKAN BAMBU DAN KAYU</pattern>
+        <template>⚖️ **PERBANDINGAN: Bambu vs Kayu**
+
+**🎋 Bambu:**
+✅ Tumbuh 3-5 tahun
+✅ Kekuatan tarik tinggi
+✅ Sangat sustainable
+❌ Durabilitas rendah
+❌ Perlu treatment
+
+**🪵 Kayu:**
+✅ Estetika premium
+✅ Mudah dibentuk
+✅ Tahan lama
+❌ Butuh 20-50 tahun tumbuh
+❌ Deforestasi risiko
+
+**📊 Rekomendasi:** Bambu untuk struktur kecil, kayu untuk interior</template>
+    </category>
+
+    <category>
+        <pattern>BANDINGKAN BETON DAUR ULANG DAN BETON KONVENSIONAL</pattern>
+        <template>⚖️ **PERBANDINGAN: Beton Daur Ulang vs Beton Baru**
+
+**♻️ Beton Daur Ulang:**
+✅ Kurangi limbah 60%
+✅ Hemat sumber daya
+✅ Sustainable
+❌ Kekuatan 10-20% lebih rendah
+❌ Butuh QC ketat
+
+**🧱 Beton Konvensional:**
+✅ Kekuatan maksimal
+✅ Standar industri
+✅ Tersedia luas
+❌ Emisi CO2 tinggi
+❌ Boros sumber daya
+
+**📊 Rekomendasi:** Beton daur ulang untuk non-struktural</template>
+    </category>
+
+    <category>
+        <pattern>BANDINGKAN KACA LOW E DAN BATU ALAM</pattern>
+        <template>⚖️ **PERBANDINGAN: Kaca Low-E vs Batu Alam**
+
+**🪟 Kaca Low-E:**
+✅ Hemat energi 30-50%
+✅ Pencahayaan alami
+✅ Estetika modern
+❌ Embodied energy tinggi
+❌ Butuh cleaning rutin
+
+**🪨 Batu Alam:**
+✅ Durabilitas luar biasa
+✅ Estetika timeless
+✅ Thermal mass excellent
+❌ Berat &amp; butuh fondasi kuat
+❌ Quarrying dampak lingkungan
+
+**📊 Rekomendasi:** Kaca Low-E untuk fasad, Batu Alam untuk lantai/feature wall</template>
+    </category>
+
+    <category>
+        <pattern>BANDINGKAN KAYU SOLID DAN KAYU ENGINEERED</pattern>
+        <template>⚖️ **PERBANDINGAN: Kayu Solid vs Kayu Engineered (CLT)**
+
+**🪵 Kayu Solid:**
+✅ Estetika natural autentik
+✅ Mudah didapat
+✅ Cocok untuk furniture
+❌ Terbatas ukuran
+❌ Rentan retak
+
+**🌲 Kayu Engineered (CLT):**
+✅ Ukuran bisa sangat besar
+✅ Kekuatan lebih konsisten
+✅ Bisa untuk 10+ lantai
+✅ Carbon negative
+❌ Harga 2-3x lebih mahal
+
+**📊 Rekomendasi:** Kayu Solid untuk interior, CLT untuk struktur modern</template>
+    </category>
+
+    <category>
+        <pattern>BANDINGKAN BAMBU DAN BAJA</pattern>
+        <template>⚖️ **PERBANDINGAN: Bambu vs Baja**
+
+**🎋 Bambu:**
+✅ Renewable sangat cepat
+✅ Kekuatan tarik setara baja
+✅ Carbon negative
+✅ Biaya sangat rendah
+❌ Durabilitas terbatas
+❌ Butuh treatment anti rayap
+
+**🔩 Baja:**
+✅ Kekuatan superior &amp; konsisten
+✅ Bisa didaur ulang 100%
+✅ Untuk semua skala bangunan
+✅ Tahan api (dengan coating)
+❌ Embodied energy sangat tinggi
+❌ Emit CO2 saat produksi
+
+**📊 Rekomendasi:** Kombinasi struktur baja + elemen bambu = biophilic design!</template>
+    </category>
+
+</aiml>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <!-- Image Analysis Patterns - 4 Gambar Berbeda -->
+
+    <category>
+        <pattern>ANALISIS GREEN BUILDING VERTICAL GARDEN</pattern>
+        <template>📸 **ANALISIS: GREEN BUILDING DENGAN VERTICAL GARDEN**
+
+Berdasarkan gambar bangunan dengan vertical garden yang Anda upload:
+
+**🌿 ELEMEN HIJAU YANG TERLIHAT:**
+✅ **Vertical Garden Ekstensif** - Vegetasi menutupi sebagian besar fasad bangunan
+✅ **Biophilic Design** - Integrasi alam dengan arsitektur modern sangat baik
+✅ **Diversity Tanaman** - Terdapat berbagai jenis tanaman merambat dan perdu
+✅ **Green Facade System** - Sistem penyangga vegetasi terstruktur dengan baik
+
+**⚡ DAMPAK EFISIENSI ENERGI:**
+- Suhu permukaan dinding turun **5-8°C** dibanding tanpa vegetasi
+- Kebutuhan AC berkurang **25-35%** untuk ruang di belakang vertical garden
+- Evapotranspirasi tanaman membantu **cooling microclimate**
+- Shading alami mengurangi **heat gain** hingga 40%
+
+**💧 PENGELOLAAN AIR:**
+- Vertical garden membutuhkan **irigasi tetes** (drip irrigation)
+- Konsumsi air: ~5-10 liter/m²/hari
+- **Rekomendasi:** Tambah **rainwater harvesting** untuk irigasi
+- **Greywater recycling** bisa dimanfaatkan untuk penyiraman
+
+**🌍 KUALITAS UDARA:**
+- Tanaman menyerap **CO2** dan polutan udara
+- Menghasilkan **O2** sekitar 2-3 kg/m²/tahun
+- Filter debu dan partikel halus (PM2.5, PM10)
+- Meningkatkan **kualitas udara indoor &amp; outdoor**
+
+**📊 SKOR SUSTAINABILITY: 88/100** 🌟
+
+**✅ KELEBIHAN:**
+1. Estetika sangat baik - meningkatkan nilai properti 15-20%
+2. Cooling effect signifikan
+3. Biodiversity meningkat
+4. Mental health benefit untuk penghuni
+
+**⚠️ KEKURANGAN:**
+1. Biaya instalasi tinggi (Rp 500-1000/m²)
+2. Maintenance intensif
+3. Butuh sistem irigasi yang handal
+
+**🎯 REKOMENDASI PERBAIKAN:**
+1. **Tambahkan solar panel** di atap yang tidak tertutup vegetasi
+2. **Rainwater harvesting** untuk irigasi vertical garden
+3. **Smart irrigation system** dengan sensor kelembaban
+4. **Composting** untuk pupuk organik
+5. **LED lighting** dengan sensor gerak untuk area dalam
+
+**KESIMPULAN:**
+Bangunan ini sudah **sangat baik** dari aspek biophilic design! Dengan integrasi sistem energi terbarukan dan pengelolaan air, bisa menjadi **role model green building** di Indonesia.
+
+Apakah Anda ingin analisis lebih detail tentang aspek tertentu?</template>
+    </category>
+
+    <category>
+        <pattern>ANALISIS RUMAH SOLAR PANEL</pattern>
+        <template>📸 **ANALISIS: RUMAH DENGAN SOLAR PANEL**
+
+Berdasarkan gambar rumah dengan panel surya yang Anda upload:
+
+**☀️ SISTEM ENERGI TERBARUKAN YANG TERLIHAT:**
+✅ **Solar Panel Rooftop** - Terpasang di atap dengan orientasi yang baik
+✅ **Kapasitas Estimasi:** 2-5 kWp (tergantung luas atap)
+✅ **Orientasi:** Sebaiknya menghadap Utara/Selatan untuk efisiensi maksimal
+✅ **Tilt Angle:** Kemiringan atap sesuai untuk lintang Indonesia (10-15°)
+
+**⚡ PRODUKSI &amp; PENGHEMATAN ENERGI:**
+- **Produksi energi:** 8-12 kWh/hari (untuk sistem 3 kWp)
+- **Penghematan:** 30-50% dari total konsumsi listrik rumah tangga
+- **ROI (Return on Investment):** 5-7 tahun
+- **Umur panel:** 25-30 tahun dengan degradasi 0.5%/tahun
+
+**💰 ANALISIS EKONOMI:**
+**Investasi Awal:**
+- Panel surya 3 kWp: Rp 45-60 juta
+- Inverter &amp; baterai: Rp 15-25 juta
+- Instalasi: Rp 5-10 juta
+- **Total: Rp 65-95 juta**
+
+**Penghematan Tahunan:**
+- Pengurangan tagihan listrik: Rp 8-12 juta/tahun
+- **Break-even:** 6-8 tahun
+- **Setelah BEP:** Hemat Rp 8-12 juta/tahun selama 20+ tahun
+
+**📊 SKOR SUSTAINABILITY: 82/100** 🌟
+
+**✅ KELEBIHAN:**
+1. Energi bersih &amp; terbarukan
+2. Penghematan jangka panjang signifikan
+3. Meningkatkan nilai properti
+4. Kontribusi positif untuk lingkungan
+5. Proteksi terhadap kenaikan tarif listrik
+
+**⚠️ YANG PERLU DIPERHATIKAN:**
+1. Pastikan struktur atap kuat (beban panel 15-20 kg/m²)
+2. Perawatan rutin: Pembersihan panel 2-3 bulan sekali
+3. Pilih installer bersertifikat &amp; bergaransi
+
+**KESIMPULAN:**
+Rumah Anda sudah **sangat baik** dengan solar panel! Ini investasi jangka panjang yang **profitable** dan **ramah lingkungan**.
+
+Apakah Anda ingin tahu lebih detail tentang sistem baterai atau optimalisasi lainnya?</template>
+    </category>
+
+    <category>
+        <pattern>ANALISIS RUMAH TROPIS VENTILASI</pattern>
+        <template>🌬️ **ANALISIS: RUMAH TROPIS DENGAN VENTILASI ALAMI**
+
+Berdasarkan gambar rumah tropis dengan ventilasi alami yang Anda upload:
+
+**🌬️ SISTEM VENTILASI ALAMI YANG TERLIHAT:**
+✅ **Bukaan Jendela Besar** - Cross ventilation optimal
+✅ **Orientasi Timur-Barat** - Meminimalkan panas matahari langsung
+✅ **Atap Tinggi** - Stack effect untuk sirkulasi udara vertikal
+✅ **Overstek Lebar** - Shading untuk dinding &amp; jendela
+✅ **Bukaan Silang** - Udara masuk &amp; keluar dari sisi berlawanan
+
+**⚡ EFISIENSI ENERGI:**
+- **Pengurangan AC:** 60-80% dibanding rumah tertutup
+- **Penghematan energi:** Rp 2-4 juta/tahun (untuk rumah 100m²)
+- **Kenyamanan termal:** Suhu indoor 26-28°C (masih nyaman tanpa AC)
+- **Natural lighting:** Mengurangi kebutuhan lampu siang hari
+
+**💧 PENGELOLAAN AIR HUJAN:**
+**Yang Terlihat:**
+✅ Atap miring untuk drainase optimal
+✅ Overstek melindungi dinding dari hujan
+
+**Rekomendasi Tambahan:**
+- **Rainwater harvesting** - Tampung air hujan untuk siram taman/cuci
+- **Biopori** - Resapan air di sekitar rumah
+- **Permeable pavement** - Untuk area teras/carport
+
+**📊 SKOR SUSTAINABILITY: 85/100** 🌟
+
+**✅ KELEBIHAN:**
+1. **Energi:** Hemat 60-80% dibanding rumah ber-AC full
+2. **Kenyamanan:** Sirkulasi udara baik, tidak pengap
+3. **Kesehatan:** Udara segar terus berganti
+4. **Biaya:** Operasional sangat rendah
+5. **Budaya:** Sesuai dengan arsitektur Nusantara
+
+**⚠️ TANTANGAN:**
+1. **Debu &amp; polusi** - Perlu pembersihan rutin
+2. **Serangga** - Perlu kasa nyamuk di bukaan
+3. **Keamanan** - Pastikan jendela bisa dikunci dengan baik
+
+**KESIMPULAN:**
+Rumah Anda adalah **contoh sempurna arsitektur tropis berkelanjutan**! Desain passive cooling dengan ventilasi alami adalah **solusi terbaik** untuk iklim Indonesia.
+
+Apakah Anda ingin detail implementasi rainwater harvesting atau solar panel untuk rumah ini?</template>
+    </category>
+
+    <category>
+        <pattern>ANALISIS GEDUNG RAINWATER HARVESTING</pattern>
+        <template>💧 **ANALISIS: GEDUNG DENGAN RAINWATER HARVESTING SYSTEM**
+
+Berdasarkan gambar gedung dengan sistem rainwater harvesting yang Anda upload:
+
+**💧 SISTEM PENGELOLAAN AIR YANG TERLIHAT:**
+✅ **Tangki Penampungan Air Hujan** - Kapasitas besar (estimasi 5000-10000 liter)
+✅ **Sistem Talang &amp; Pipa** - Pengumpulan air dari atap
+✅ **Filter &amp; Treatment** - Penyaringan sebelum penyimpanan
+✅ **Pompa &amp; Distribusi** - Sistem distribusi air hasil olahan
+
+**📊 KAPASITAS &amp; PRODUKSI AIR:**
+**Perhitungan Curah Hujan Jakarta:**
+- Rata-rata curah hujan: 1800-2500 mm/tahun
+- Luas atap gedung (estimasi): 500 m²
+- **Potensi air hujan:** 900-1250 m³/tahun (900,000-1,250,000 liter)
+
+**Efisiensi Sistem:**
+- Runoff coefficient: 0.8-0.9 (atap datar/miring)
+- Losses (evaporasi, overflow): 10-15%
+- **Air terpakai:** 750-1000 m³/tahun
+
+**💰 ANALISIS EKONOMI:**
+**Investasi Sistem:**
+- Tangki storage (10,000L): Rp 15-25 juta
+- Sistem talang &amp; pipa: Rp 10-15 juta
+- Filter &amp; treatment: Rp 8-12 juta
+- Pompa &amp; instalasi: Rp 5-8 juta
+- **Total: Rp 38-60 juta**
+
+**Penghematan Tahunan:**
+- Pengurangan air PDAM: 60-80%
+- Estimasi hemat: Rp 15-25 juta/tahun
+- **ROI:** 2-4 tahun
+
+**📊 SKOR SUSTAINABILITY: 86/100** 🌟
+
+**✅ KELEBIHAN:**
+1. **Ekonomi:** Hemat Rp 15-25 juta/tahun
+2. **Lingkungan:** Kurangi runoff &amp; banjir
+3. **Kemandirian:** 60-80% air non-potable mandiri
+4. **Regulasi:** Sesuai Perda tentang pengelolaan air
+
+**⚠️ TANTANGAN:**
+1. **Maintenance:** Filter perlu dibersihkan rutin
+2. **Kualitas air:** Perlu monitoring bakteri &amp; kimia
+3. **Space:** Tangki besar butuh area
+
+**KESIMPULAN:**
+Gedung Anda sudah **sangat advance** dalam pengelolaan air! Sistem rainwater harvesting ini adalah **investasi jangka panjang** yang profitable dan berkelanjutan.
+
+Apakah Anda ingin detail teknis implementasi greywater recycling atau solar panel untuk pompa?</template>
+    </category>
+
+    <category>
+        <pattern>ANALISIS GAMBAR INI</pattern>
+        <template>📸 **ANALISIS GAMBAR ARSITEKTUR BERKELANJUTAN**
+
+Untuk memberikan analisis yang paling akurat, saya perlu tahu fokus analisis Anda.
+
+**🔍 PILIH ASPEK YANG INGIN DIANALISIS:**
+
+1. **⚡ Analisis Energi**
+   - Ketik: "Analisis efisiensi energi"
+   - Fokus: Panel surya, pencahayaan, ventilasi
+
+2. **🧱 Analisis Material**
+   - Ketik: "Material yang digunakan"
+   - Fokus: Jenis material, sustainability
+
+3. **💧 Analisis Air**
+   - Ketik: "Sistem pengelolaan air"
+   - Fokus: Rainwater, greywater, drainase
+
+4. **🌿 Analisis Vegetasi**
+   - Ketik: "Elemen hijau bangunan"
+   - Fokus: Vertical garden, landscape
+
+5. **📊 Analisis Keseluruhan**
+   - Ketik: "Skor sustainability" atau "Rekomendasi"
+   - Fokus: Evaluasi menyeluruh
+
+**📝 CONTOH PERTANYAAN SPESIFIK:**
+- "Apakah bangunan ini sudah green building?"
+- "Berikan rekomendasi perbaikan"
+- "Bagaimana tingkat sustainability-nya?"
+
+Atau upload gambar dengan karakteristik:
+- **Vertical garden** → Ketik: "ANALISIS GREEN BUILDING VERTICAL GARDEN"
+- **Solar panel** → Ketik: "ANALISIS RUMAH SOLAR PANEL"
+- **Ventilasi alami** → Ketik: "ANALISIS RUMAH TROPIS VENTILASI"
+- **Rainwater system** → Ketik: "ANALISIS GEDUNG RAINWATER HARVESTING"
+
+Saya siap membantu! 🌱</template>
+    </category>
+
+</aiml>
